@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="646.628" tests="32" errors="10" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Jaya\Downloads\cucumber-Java-20251229T110220Z-3-001\cucumber-Java\target\test-classes;C:\Users\Jaya\Downloads\cucumber-Java-20251229T110220Z-3-001\cucumber-Java\target\classes;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Jaya\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Jaya\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.32.0\allure-cucumber7-jvm-2.32.0.jar;C:\Users\Jaya\.m2\repository\io\qameta\allure\allure-java-commons\2.32.0\allure-java-commons-2.32.0.jar;C:\Users\Jaya\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Jaya\.m2\repository\io\qameta\allure\allure-model\2.32.0\allure-model-2.32.0.jar;C:\Users\Jaya\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Jaya\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Jaya\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Jaya\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Jaya\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Jaya\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Jaya\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Jaya\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Jaya\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Jaya\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Jaya\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\Jaya\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Jaya\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Jaya\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Jaya\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Jaya\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Jaya\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\Jaya\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Jaya\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Jaya\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Jaya\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Jaya\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Jaya\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Jaya\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Jaya\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Jaya\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Jaya\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Jaya\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Jaya\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Jaya\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Jaya\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Jaya\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\Jaya\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\Jaya\AppData\Local\Temp\surefire11957310989442488970\surefirebooter-20260323102954796_3.jar C:\Users\Jaya\AppData\Local\Temp\surefire11957310989442488970 2026-03-23T10-29-54_641-jvmRun1 surefire-20260323102954796_1tmp surefire_0-20260323102954796_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Jaya\Downloads\cucumber-Java-20251229T110220Z-3-001\cucumber-Java\target\test-classes;C:\Users\Jaya\Downloads\cucumber-Java-20251229T110220Z-3-001\cucumber-Java\target\classes;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Jaya\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Jaya\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Jaya\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\Jaya\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.32.0\allure-cucumber7-jvm-2.32.0.jar;C:\Users\Jaya\.m2\repository\io\qameta\allure\allure-java-commons\2.32.0\allure-java-commons-2.32.0.jar;C:\Users\Jaya\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Jaya\.m2\repository\io\qameta\allure\allure-model\2.32.0\allure-model-2.32.0.jar;C:\Users\Jaya\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Jaya\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Jaya\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Jaya\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Jaya\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Jaya\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Jaya\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Jaya\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Jaya\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Jaya\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Jaya\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Jaya\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Jaya\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\Jaya\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Jaya\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Jaya\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Jaya\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Jaya\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Jaya\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\Jaya\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Jaya\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Jaya\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Jaya\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Jaya\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Jaya\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Jaya\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Jaya\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Jaya\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Jaya\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Jaya\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Jaya\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Jaya\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Jaya\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Jaya\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Jaya\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\Jaya\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Jaya"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Jaya\Downloads\cucumber-Java-20251229T110220Z-3-001\cucumber-Java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jaya\AppData\Local\Temp\surefire11957310989442488970\surefirebooter-20260323102954796_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="Jaya"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Jaya\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Jaya\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\Users\Jaya\Downloads\cucumber-Java-20251229T110220Z-3-001\cucumber-Java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Mohammad Shoaib\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\php;c:\Users\Mohammad Shoaib\AppData\Local\Programs\cursor\resources\app\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-25\bin;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\emulator;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;C:\Android\Sdk\platform-tools;C:\Android\Sdk\emulator;C:\Android\Sdk\tools\bin;C:\Android\Sdk\cmdline-tools\latest\bin;C:\Program Files\Git\cmd;C:\Users\Jaya\AppData\Local\Microsoft\WindowsApps;C:\Users\Jaya\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-25\bin;C:\Users\Jaya\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\Jaya\AppData\Local\Programs\Antigravity\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="Add a new Athlete" classname="Athletes Functionality" time="80.033">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: (//*[name()=&apos;path&apos;][@fill=&apos;currentColor&apos;])[5] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54765}, goog:processID: 14932, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54765/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 922c09d500e3bed49bdea2d7ef7d759c" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: (//*[name()='path'][@fill='currentColor'])[5] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54765}, goog:processID: 14932, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54765/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 922c09d500e3bed49bdea2d7ef7d759c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.athletesPage.clickCalendarAndSelectDate(athletesPage.java:106)
+	at com.example.stepdefinitions.athletesSteps.user_click_on_calendar_and_select_date(athletesSteps.java:44)
+	at ✽.user click on calendar and select date(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/athletes.feature:17)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Add a new Athlete                                                              &amp#27;[90m# src/test/resources/Features/athletes.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                        &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m    &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                    &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                                &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser goes to Athletes&amp#27;[0m                                                              &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_goes_to_athletes()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on Add Athletes&amp#27;[0m                                                       &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_clicks_on_add_athletes()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter first name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Jack"&amp#27;[0m                                                       &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_enter_first_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter last name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Louis"&amp#27;[0m                                                       &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_enter_last_name(java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31muser click on calendar and select date&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_click_on_calendar_and_select_date()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//*[name()='path'][@fill='currentColor'])[5] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54765}, goog:processID: 14932, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54765/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 922c09d500e3bed49bdea2d7ef7d759c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.athletesPage.clickCalendarAndSelectDate(athletesPage.java:106)
+	at com.example.stepdefinitions.athletesSteps.user_click_on_calendar_and_select_date(athletesSteps.java:44)
+	at ✽.user click on calendar and select date(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/athletes.feature:17)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click on gender dropdown and select it&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_click_on_gender_dropdown_and_select_it()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enter email &amp#27;[0m&amp#27;[36m&amp#27;[1m"jack121@gmail.com"&amp#27;[0m                                               &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_enter_email(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enter mobile number &amp#27;[0m&amp#27;[36m&amp#27;[1m"(667) 543-2113"&amp#27;[0m                                          &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_enter_mobile_number(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser scroll down household tab&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_scroll_down_household_tab()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click on Add Household&amp#27;[0m                                                        &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_click_on_household()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enter household email &amp#27;[0m&amp#27;[36m&amp#27;[1m"jane@example.com"&amp#27;[0m&amp#27;[36m and household relationaship &amp#27;[0m&amp#27;[36m&amp#27;[1m"Parent"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_enter_household_email_and_household_relationaship(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enter firstname &amp#27;[0m&amp#27;[36m&amp#27;[1m"Henry"&amp#27;[0m&amp#27;[36m , lastname &amp#27;[0m&amp#27;[36m&amp#27;[1m"Doe"&amp#27;[0m&amp#27;[36m and phone no. &amp#27;[0m&amp#27;[36m&amp#27;[1m"5551234"&amp#27;[0m&amp#27;[36m of household&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_enter_firstname_lastname_and_phone_no_of_household(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser clicks on Continue&amp#27;[0m                                                            &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_clicks_on_continue()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe athlete is added successfully&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.athletesSteps.the_athlete_is_added_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Mar 23, 2026 10:29:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:29:58 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Edit the details of new Athlete added" classname="Athletes Functionality" time="46.554">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: //tbody/tr[1]/td[11]/div[1]/app-table-action[2]/button[1]/span[1]/fa-icon[1]//*[name()=&apos;svg&apos;] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54796}, goog:processID: 3452, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54796/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2a19b513c62947b1460ec4293d725c34" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //tbody/tr[1]/td[11]/div[1]/app-table-action[2]/button[1]/span[1]/fa-icon[1]//*[name()='svg'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54796}, goog:processID: 3452, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54796/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a19b513c62947b1460ec4293d725c34
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.athletesPage.clickEditAthlete(athletesPage.java:204)
+	at com.example.stepdefinitions.athletesSteps.user_click_on_edit_button_of_athlete(athletesSteps.java:95)
+	at ✽.user click on edit button of athlete(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/athletes.feature:31)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Edit the details of new Athlete added                                       &amp#27;[90m# src/test/resources/Features/athletes.feature:29&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser goes to Athletes&amp#27;[0m                                                           &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_goes_to_athletes()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31muser click on edit button of athlete&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_click_on_edit_button_of_athlete()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //tbody/tr[1]/td[11]/div[1]/app-table-action[2]/button[1]/span[1]/fa-icon[1]//*[name()='svg'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54796}, goog:processID: 3452, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54796/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a19b513c62947b1460ec4293d725c34
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.athletesPage.clickEditAthlete(athletesPage.java:204)
+	at com.example.stepdefinitions.athletesSteps.user_click_on_edit_button_of_athlete(athletesSteps.java:95)
+	at ✽.user click on edit button of athlete(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/athletes.feature:31)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser edit name of the athlete &amp#27;[0m&amp#27;[36m&amp#27;[1m"Jack edited"&amp#27;[0m                                     &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_edit_name_of_the_athlete(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser scroll down  athlete tab&amp#27;[0m                                                   &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_scroll_down_athlete_tab()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser edit email of the athlete &amp#27;[0m&amp#27;[36m&amp#27;[1m"jackedited@gmail.com"&amp#27;[0m                           &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_edit_email_of_the_athlete(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click on submit button&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.athletesSteps.user_click_on_submit_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe edit athlete saved successfully&amp#27;[0m                                            &amp#27;[90m# com.example.stepdefinitions.athletesSteps.the_edit_athlete_saved_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:31:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:31:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Testing a post with text on team feed #1" classname="Dashboard Functionality;" time="10.521">
+    <system-out><![CDATA[
+Scenario: Testing a post with text on team feed                                       &amp#27;[90m# src/test/resources/Features/dashboard.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser writes a post on the Team Feed &amp#27;[0m&amp#27;[32m&amp#27;[1m"Hello Team, this is a test post"&amp#27;[0m           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_writes_a_post(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Post to Team Feed button&amp#27;[0m                                         &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_clicks_post_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpost should be published successfully&amp#27;[0m                                          &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.post_should_be_published_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:32:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:32:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Testing a post with text on team feed #2" classname="Dashboard Functionality;" time="10.745">
+    <system-out><![CDATA[
+Scenario: Testing a post with text on team feed                                       &amp#27;[90m# src/test/resources/Features/dashboard.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser writes a post on the Team Feed &amp#27;[0m&amp#27;[32m&amp#27;[1m"Hello Team, this is a test post"&amp#27;[0m           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_writes_a_post(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Post to Team Feed button&amp#27;[0m                                         &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_clicks_post_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpost should be published successfully&amp#27;[0m                                          &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.post_should_be_published_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:32:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:32:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Testing a post with link on team feed" classname="Dashboard Functionality;" time="11.186">
+    <system-out><![CDATA[
+Scenario: Testing a post with link on team feed                                        &amp#27;[90m# src/test/resources/Features/dashboard.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                      &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m  &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                  &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                              &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                            &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser writes a post on the Team Feed &amp#27;[0m&amp#27;[32m&amp#27;[1m"Hello Team,post with link"&amp#27;[0m                  &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_writes_a_post(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on link and enter URL &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://pre-prod-app.safeteam.io/panel/groups"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_add_link(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                         &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Post to Team Feed button&amp#27;[0m                                          &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_clicks_post_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpost should be published successfully&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.post_should_be_published_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:32:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:32:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Testing a post with img on team feed" classname="Dashboard Functionality;" time="11.289">
+    <system-out><![CDATA[
+Scenario: Testing a post with img on team feed                                                              &amp#27;[90m# src/test/resources/Features/dashboard.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                                           &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m                       &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                                       &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                                                   &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                                                 &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser writes a post on the Team Feed &amp#27;[0m&amp#27;[32m&amp#27;[1m"Hello Team, post with img"&amp#27;[0m                                       &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_writes_a_post(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on img and upload img from path &amp#27;[0m&amp#27;[32m&amp#27;[1m"C:\Users\Jaya\Downloads\Screenshot 2025-12-18 113630.png"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_upload_image(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                                              &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Post to Team Feed button&amp#27;[0m                                                               &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_clicks_post_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpost should be published successfully&amp#27;[0m                                                                &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.post_should_be_published_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:32:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:32:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Testing a post with video on team feed" classname="Dashboard Functionality;" time="11.707">
+    <system-out><![CDATA[
+Scenario: Testing a post with video on team feed                                                             &amp#27;[90m# src/test/resources/Features/dashboard.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                                            &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m                        &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                                        &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                                                    &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                                                  &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser writes a post on the Team Feed &amp#27;[0m&amp#27;[32m&amp#27;[1m"Hello Team, post with video"&amp#27;[0m                                      &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_writes_a_post(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on video and upload img from path &amp#27;[0m&amp#27;[32m&amp#27;[1m"C:\Users\Jaya\Downloads\3192198-uhd_3840_2160_25fps.mp4"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_upload_video(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                                               &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Post to Team Feed button&amp#27;[0m                                                                &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_clicks_post_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpost should be published successfully&amp#27;[0m                                                                 &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.post_should_be_published_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:32:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:32:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Testing a edit of latest post" classname="Dashboard Functionality;" time="12.867">
+    <system-out><![CDATA[
+Scenario: Testing a edit of latest post                                               &amp#27;[90m# src/test/resources/Features/dashboard.feature:55&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on three dots of the post&amp#27;[0m                                            &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_three_dots_of_the_post()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Edit option&amp#27;[0m                                                      &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_clicks_on_edit_option()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser edits the post with text &amp#27;[0m&amp#27;[32m&amp#27;[1m"Hello Team, edited post"&amp#27;[0m                         &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_edits_the_post_with_text(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scroll Save Changes and clicks on Save Changes button&amp#27;[0m                      &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_scroll_save_changes_and_clicks_on_save_changes_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpost should be published successfully&amp#27;[0m                                          &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.post_should_be_published_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:32:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:32:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Testing a delete of latest post" classname="Dashboard Functionality;" time="12.027">
+    <system-out><![CDATA[
+Scenario: Testing a delete of latest post                                             &amp#27;[90m# src/test/resources/Features/dashboard.feature:65&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on three dots of the post&amp#27;[0m                                            &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_three_dots_of_the_post()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Delete option&amp#27;[0m                                                    &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_clicks_on_delete_option()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpost should be deleted successfully&amp#27;[0m                                            &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.post_should_be_deleted_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:33:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:33:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Testing a comment of latest post" classname="Dashboard Functionality;" time="13.04">
+    <system-out><![CDATA[
+Scenario: Testing a comment of latest post                                            &amp#27;[90m# src/test/resources/Features/dashboard.feature:74&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on Comments of the post&amp#27;[0m                                              &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_comments_of_the_post()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Be the first one to comment&amp#27;[0m                                      &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_clicks_on_be_the_first_one_to_comment()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter comment &amp#27;[0m&amp#27;[32m&amp#27;[1m"This is a test comment"&amp#27;[0m                                     &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_enter_comment(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Post Comment button&amp#27;[0m                                              &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_clicks_on_post_comment_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcomment should be published successfully&amp#27;[0m                                       &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.comment_should_be_published_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:33:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:33:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Testing a like of latest post" classname="Dashboard Functionality;" time="11.489">
+    <system-out><![CDATA[
+Scenario: Testing a like of latest post                                               &amp#27;[90m# src/test/resources/Features/dashboard.feature:85&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on Likes icon of the post&amp#27;[0m                                            &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_likes_icon_of_the_post()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpost should be liked successfully&amp#27;[0m                                              &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.post_should_be_liked_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:33:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:33:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Testing a dislike of latest post" classname="Dashboard Functionality;" time="11.489">
+    <system-out><![CDATA[
+Scenario: Testing a dislike of latest post                                            &amp#27;[90m# src/test/resources/Features/dashboard.feature:92&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on alreadyLiked icon of the post&amp#27;[0m                                     &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_already_liked_icon_of_the_post()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpost should be dislike successfully&amp#27;[0m                                            &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.post_should_be_dislike_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:33:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:33:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="When user create event from dashboard" classname="Dashboard Functionality;" time="12.45">
+    <system-out><![CDATA[
+Scenario: When user create event from dashboard                                       &amp#27;[90m# src/test/resources/Features/dashboard.feature:99&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on plus icon and select Add Event option&amp#27;[0m                             &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_plus_icon_and_select_add_event_option()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter event name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Team Meeting"&amp#27;[0m                                            &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_enter_event_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scroll current event tab&amp#27;[0m                                                   &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_scroll_current_event_tab()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter event location &amp#27;[0m&amp#27;[32m&amp#27;[1m"Conference Room"&amp#27;[0m                                     &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_enter_event_location(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter event address &amp#27;[0m&amp#27;[32m&amp#27;[1m"San Francisco CA"&amp#27;[0m                                     &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_enter_event_address(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on Save button&amp#27;[0m                                                       &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_save_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mevent should be created successfully&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.event_should_be_created_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:33:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:33:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="When user delete a event from dashboard" classname="Dashboard Functionality;" time="40.948">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class=&apos;mat-focus-indicator solid-primary mat-flat-button mat-button-base&apos;] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64281}, goog:processID: 17740, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64281/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aa1cc54c3ab615e5491ccf92ee602943" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator solid-primary mat-flat-button mat-button-base'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64281}, goog:processID: 17740, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64281/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa1cc54c3ab615e5491ccf92ee602943
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.DashboardPage.clickEditButtonOfEvent(DashboardPage.java:332)
+	at com.example.stepdefinitions.DashboardSteps.user_click_on_edit_button_of_the_event(DashboardSteps.java:201)
+	at ✽.user click on edit button of the event(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:113)
+]]></error>
+    <system-out><![CDATA[
+Scenario: When user delete a event from dashboard                                     &amp#27;[90m# src/test/resources/Features/dashboard.feature:110&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31muser click on edit button of the event&amp#27;[0m                                          &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_edit_button_of_the_event()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator solid-primary mat-flat-button mat-button-base'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64281}, goog:processID: 17740, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64281/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa1cc54c3ab615e5491ccf92ee602943
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.DashboardPage.clickEditButtonOfEvent(DashboardPage.java:332)
+	at com.example.stepdefinitions.DashboardSteps.user_click_on_edit_button_of_the_event(DashboardSteps.java:201)
+	at ✽.user click on edit button of the event(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:113)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click on Delete button&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_delete_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mevent should be deleted successfully&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.event_should_be_deleted_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:34:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:34:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="When user add announcement from dashboard" classname="Dashboard Functionality;" time="40.98">
+    <error message="Expected condition failed: waiting for element to no longer be visible: By.xpath: //div[contains(@class,&apos;cdk-overlay&apos;)]//form | //div[contains(@class,&apos;cdk-overlay&apos;)]//mat-dialog-container (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50871}, goog:processID: 22348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50871/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4a36d4cb7e1ae6d17d4916064ef6b4e1" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to no longer be visible: By.xpath: //div[contains(@class,'cdk-overlay')]//form | //div[contains(@class,'cdk-overlay')]//mat-dialog-container (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50871}, goog:processID: 22348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50871/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a36d4cb7e1ae6d17d4916064ef6b4e1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.DashboardPage.verifyAnnouncementCreated(DashboardPage.java:372)
+	at com.example.stepdefinitions.DashboardSteps.announcement_should_be_created_successfully(DashboardSteps.java:237)
+	at ✽.announcement should be created successfully(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:124)
+]]></error>
+    <system-out><![CDATA[
+Scenario: When user add announcement from dashboard                                   &amp#27;[90m# src/test/resources/Features/dashboard.feature:118&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on plus icon and select Add Announcement option&amp#27;[0m                      &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_plus_icon_and_select_add_announcement_option()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter announcement title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Office Renovation"&amp#27;[0m                               &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_enter_announcement_title(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on add announcement button&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_add_announcement_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mannouncement should be created successfully&amp#27;[0m                                    &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.announcement_should_be_created_successfully()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.xpath: //div[contains(@class,'cdk-overlay')]//form | //div[contains(@class,'cdk-overlay')]//mat-dialog-container (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50871}, goog:processID: 22348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50871/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a36d4cb7e1ae6d17d4916064ef6b4e1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.DashboardPage.verifyAnnouncementCreated(DashboardPage.java:372)
+	at com.example.stepdefinitions.DashboardSteps.announcement_should_be_created_successfully(DashboardSteps.java:237)
+	at ✽.announcement should be created successfully(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:124)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:34:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:34:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="When user delete announcement from dashboard" classname="Dashboard Functionality;" time="40.212">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(.,&apos;Announcement&apos;) or contains(.,&apos;announcement&apos;)] | //button[contains(.,&apos;Announcement&apos;)] | //*[contains(@class,&apos;tab&apos;) and contains(.,&apos;Announcement&apos;)] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50728}, goog:processID: 17216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50728/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bf9050a3d9e43bb217c0d0c14144cd90" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(.,'Announcement') or contains(.,'announcement')] | //button[contains(.,'Announcement')] | //*[contains(@class,'tab') and contains(.,'Announcement')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50728}, goog:processID: 17216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50728/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf9050a3d9e43bb217c0d0c14144cd90
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.DashboardPage.clickAnnouncementTab(DashboardPage.java:378)
+	at com.example.stepdefinitions.DashboardSteps.user_click_on_announcement_tab(DashboardSteps.java:244)
+	at ✽.user click on announcement tab(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:129)
+]]></error>
+    <system-out><![CDATA[
+Scenario: When user delete announcement from dashboard                                &amp#27;[90m# src/test/resources/Features/dashboard.feature:126&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31muser click on announcement tab&amp#27;[0m                                                  &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_announcement_tab()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(.,'Announcement') or contains(.,'announcement')] | //button[contains(.,'Announcement')] | //*[contains(@class,'tab') and contains(.,'Announcement')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50728}, goog:processID: 17216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50728/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf9050a3d9e43bb217c0d0c14144cd90
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.DashboardPage.clickAnnouncementTab(DashboardPage.java:378)
+	at com.example.stepdefinitions.DashboardSteps.user_click_on_announcement_tab(DashboardSteps.java:244)
+	at ✽.user click on announcement tab(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:129)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click on delete button of the announcement&amp#27;[0m                                 &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_delete_button_of_the_announcement()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mannouncement should be deleted successfully&amp#27;[0m                                    &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.announcement_should_be_deleted_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:35:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:35:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="When user add game in calendar" classname="Dashboard Functionality;" time="33.426">
+    <system-out><![CDATA[
+Scenario: When user add game in calendar                                              &amp#27;[90m# src/test/resources/Features/dashboard.feature:133&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on plus icon and select Add Game option&amp#27;[0m                              &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_plus_icon_and_select_add_game_option()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter opponent name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Rival Team"&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_enter_opponent_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scroll current event tab&amp#27;[0m                                                   &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_scroll_current_event_tab()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter location &amp#27;[0m&amp#27;[32m&amp#27;[1m"New York"&amp#27;[0m                                                  &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_enter_location(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter address &amp#27;[0m&amp#27;[32m&amp#27;[1m"New York, NY"&amp#27;[0m                                               &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_enter_address(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on Save button&amp#27;[0m                                                       &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_click_on_save_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mgame should be added successfully&amp#27;[0m                                              &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.game_should_be_added_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:36:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:36:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="When user delete game from calendar" classname="Dashboard Functionality;" time="10.232">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at com.example.stepdefinitions.DashboardSteps.userClickOnGameTab(DashboardSteps.java:288)
+	at ✽.user click on  game tab(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:148)
+]]></error>
+    <system-out><![CDATA[
+Scenario: When user delete game from calendar                                         &amp#27;[90m# src/test/resources/Features/dashboard.feature:145&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[33mAnd &amp#27;[0m&amp#27;[33muser click on  game tab&amp#27;[0m                                                         &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userClickOnGameTab()&amp#27;[0m
+      &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me
+	at com.example.stepdefinitions.DashboardSteps.userClickOnGameTab(DashboardSteps.java:288)
+	at ✽.user click on  game tab(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:148)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click on delete button of game tab&amp#27;[0m                                         &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userClickOnDeleteButtonOfGameTab()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mgame should be deleted successfully&amp#27;[0m                                            &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.gameShouldBeDeletedSuccessfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:36:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:36:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="When user export from calendar" classname="Dashboard Functionality;" time="10.472">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at com.example.stepdefinitions.DashboardSteps.userClickOnPlusIconAndSelectAddClickOnExportCalendar(DashboardSteps.java:306)
+	at ✽.user click on plus icon and select Add click on Export Calendar(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:155)
+]]></error>
+    <system-out><![CDATA[
+Scenario: When user export from calendar                                              &amp#27;[90m# src/test/resources/Features/dashboard.feature:152&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Dashboard menu&amp#27;[0m                                           &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.user_navigates_to_dashboard_menu()&amp#27;[0m
+  &amp#27;[33mAnd &amp#27;[0m&amp#27;[33muser click on plus icon and select Add click on Export Calendar&amp#27;[0m                 &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userClickOnPlusIconAndSelectAddClickOnExportCalendar()&amp#27;[0m
+      &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me
+	at com.example.stepdefinitions.DashboardSteps.userClickOnPlusIconAndSelectAddClickOnExportCalendar(DashboardSteps.java:306)
+	at ✽.user click on plus icon and select Add click on Export Calendar(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:155)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mcalendar should be exported successfully&amp#27;[0m                                       &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.calendarShouldBeExportedSuccessfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:36:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:36:58 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login with invalid credentials #1" classname="Login Functionality #1" time="5.865">
+    <system-out><![CDATA[
+@invalid_login
+Scenario Outline: Login with invalid credentials                        &amp#27;[90m# src/test/resources/Features/invalidlogin.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                       &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid@example.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wrongness"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                   &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser in  login page&amp#27;[0m                                              &amp#27;[90m# com.example.stepdefinitions.InvalidLoginSteps.userInLoginPage()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:37:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:37:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login with invalid credentials #2" classname="Login Functionality #1" time="5.912">
+    <system-out><![CDATA[
+@invalid_login
+Scenario Outline: Login with invalid credentials                      &amp#27;[90m# src/test/resources/Features/invalidlogin.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid@example.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wrongness"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser in  login page&amp#27;[0m                                            &amp#27;[90m# com.example.stepdefinitions.InvalidLoginSteps.userInLoginPage()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:37:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:37:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login with invalid credentials #3" classname="Login Functionality #1" time="5.926">
+    <system-out><![CDATA[
+@invalid_login
+Scenario Outline: Login with invalid credentials                       &amp#27;[90m# src/test/resources/Features/invalidlogin.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                      &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid@example.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"validate"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                  &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser in  login page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.InvalidLoginSteps.userInLoginPage()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:37:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:37:20 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login with different credentials" classname="Login Functionality #2" time="10.176">
+    <system-out><![CDATA[
+@login
+Scenario Outline: Login with different credentials                                    &amp#27;[90m# src/test/resources/Features/login.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:37:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:37:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login with valid credentials" classname="Login Functionality #2" time="10.48">
+    <system-out><![CDATA[
+@valid_login
+Scenario Outline: Login with valid credentials                                        &amp#27;[90m# src/test/resources/Features/login.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:37:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:37:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Creating a new folder in media library" classname="Media Library Functionality" time="25.198">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class=&apos;mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted&apos;] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50372}, goog:processID: 15292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50372/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8e4a6d1022c15325eb141f07eb4bb892" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50372}, goog:processID: 15292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50372/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e4a6d1022c15325eb141f07eb4bb892
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.MediaLibraryPage.clickAddNewAndSelectNewFolder(MediaLibraryPage.java:77)
+	at com.example.stepdefinitions.MediaLibrarySteps.user_clicks_on_add_new_and_selects_new_folder(MediaLibrarySteps.java:32)
+	at ✽.user clicks on Add New and selects New Folder(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/mediaLibrary.feature:15)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Creating a new folder in media library                                      &amp#27;[90m# src/test/resources/Features/mediaLibrary.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser goes to Media Library&amp#27;[0m                                                      &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.user_goes_to_media_library()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31muser clicks on Add New and selects New Folder&amp#27;[0m                                  &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.user_clicks_on_add_new_and_selects_new_folder()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50372}, goog:processID: 15292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50372/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e4a6d1022c15325eb141f07eb4bb892
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.MediaLibraryPage.clickAddNewAndSelectNewFolder(MediaLibraryPage.java:77)
+	at com.example.stepdefinitions.MediaLibrarySteps.user_clicks_on_add_new_and_selects_new_folder(MediaLibrarySteps.java:32)
+	at ✽.user clicks on Add New and selects New Folder(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/mediaLibrary.feature:15)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters new folder name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sample Folder"&amp#27;[0m                                     &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.userEntersNewFolderName(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser clicks on Create Folder&amp#27;[0m                                                   &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.userClicksOnCreateFolder()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:37:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:37:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Creating a new document in media library" classname="Media Library Functionality" time="25.741">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class=&apos;mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted&apos;] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49811}, goog:processID: 16804, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49811/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e089bec67a038b37058850d7200e8b81" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49811}, goog:processID: 16804, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49811/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e089bec67a038b37058850d7200e8b81
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.MediaLibraryPage.clickAddNewAndSelectNewDocument(MediaLibraryPage.java:96)
+	at com.example.stepdefinitions.MediaLibrarySteps.userClicksOnAddNewAndSelectsNewDocument(MediaLibrarySteps.java:60)
+	at ✽.user clicks on Add New and selects New Document(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/mediaLibrary.feature:20)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Creating a new document in media library                                           &amp#27;[90m# src/test/resources/Features/mediaLibrary.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                            &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m        &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                        &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                                    &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser goes to Media Library&amp#27;[0m                                                             &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.user_goes_to_media_library()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31muser clicks on Add New and selects New Document&amp#27;[0m                                       &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.userClicksOnAddNewAndSelectsNewDocument()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49811}, goog:processID: 16804, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49811/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e089bec67a038b37058850d7200e8b81
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.MediaLibraryPage.clickAddNewAndSelectNewDocument(MediaLibraryPage.java:96)
+	at com.example.stepdefinitions.MediaLibrarySteps.userClicksOnAddNewAndSelectsNewDocument(MediaLibrarySteps.java:60)
+	at ✽.user clicks on Add New and selects New Document(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/mediaLibrary.feature:20)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser browses and uploads document from path &amp#27;[0m&amp#27;[36m&amp#27;[1m"C:\\Users\\Jaya\\Downloads\\calendar.ics"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.userBrowsesAndUploadsDocumentFromPath(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters tags &amp#27;[0m&amp#27;[36m&amp#27;[1m"all"&amp#27;[0m&amp#27;[36m and description &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sample Document"&amp#27;[0m                               &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.userEntersTagsAndDescription(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser clicks on Save File&amp#27;[0m                                                              &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.userClicksOnSaveFile()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:38:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:38:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Creating a new link in media library" classname="Media Library Functionality" time="25.689">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class=&apos;mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted&apos;] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56254}, goog:processID: 8172, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56254/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9d4cd3e9c91ad14e7861c164f182daa0" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56254}, goog:processID: 8172, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56254/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d4cd3e9c91ad14e7861c164f182daa0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.MediaLibraryPage.clickAddNewAndSelectAddNewLink(MediaLibraryPage.java:124)
+	at com.example.stepdefinitions.MediaLibrarySteps.userClicksOnAddNewAndSelectsAddNewLink(MediaLibrarySteps.java:80)
+	at ✽.user clicks on Add New and selects Add New Link(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/mediaLibrary.feature:26)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Creating a new link in media library                                        &amp#27;[90m# src/test/resources/Features/mediaLibrary.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser goes to Media Library&amp#27;[0m                                                      &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.user_goes_to_media_library()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31muser clicks on Add New and selects Add New Link&amp#27;[0m                                &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.userClicksOnAddNewAndSelectsAddNewLink()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56254}, goog:processID: 8172, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56254/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d4cd3e9c91ad14e7861c164f182daa0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.MediaLibraryPage.clickAddNewAndSelectAddNewLink(MediaLibraryPage.java:124)
+	at com.example.stepdefinitions.MediaLibrarySteps.userClicksOnAddNewAndSelectsAddNewLink(MediaLibrarySteps.java:80)
+	at ✽.user clicks on Add New and selects Add New Link(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/mediaLibrary.feature:26)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters link text &amp#27;[0m&amp#27;[36m&amp#27;[1m"Sample link"&amp#27;[0m&amp#27;[36m and URL &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://google.com"&amp#27;[0m                &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.userEntersLinkTextAndURL(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser clicks on Save Link&amp#27;[0m                                                       &amp#27;[90m# com.example.stepdefinitions.MediaLibrarySteps.userClicksOnSaveLink()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:38:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:38:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Add new program in program functionality #1" classname="Program Functionality;" time="19.914">
+    <system-out><![CDATA[
+Scenario: Add new program in program functionality                                    &amp#27;[90m# src/test/resources/Features/program.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Program menu&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_navigates_to_the_program_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on Add New Program&amp#27;[0m                                                   &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_add_new_program()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter program name&amp#27;[0m                                                         &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_enter_program_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on season and checked the box&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_season_and_checked_the_box()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on sport and select from dropdown&amp#27;[0m                                    &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_sport_and_select_from_dropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on gender and select from dropdown&amp#27;[0m                                   &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_gender_and_select_from_dropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter program website&amp#27;[0m                                                      &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_enter_program_website()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on Create My  Program&amp#27;[0m                                               &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_create_my_program()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:39:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:39:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Add new program in program functionality #2" classname="Program Functionality;" time="19.658">
+    <system-out><![CDATA[
+Scenario: Add new program in program functionality                                    &amp#27;[90m# src/test/resources/Features/program.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Program menu&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_navigates_to_the_program_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on Add New Program&amp#27;[0m                                                   &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_add_new_program()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter program name&amp#27;[0m                                                         &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_enter_program_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on season and checked the box&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_season_and_checked_the_box()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on sport and select from dropdown&amp#27;[0m                                    &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_sport_and_select_from_dropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on gender and select from dropdown&amp#27;[0m                                   &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_gender_and_select_from_dropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter program website&amp#27;[0m                                                      &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_enter_program_website()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on Create My  Program&amp#27;[0m                                               &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_create_my_program()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:39:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:39:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Add new program in program functionality #3" classname="Program Functionality;" time="19.681">
+    <system-out><![CDATA[
+Scenario: Add new program in program functionality                                    &amp#27;[90m# src/test/resources/Features/program.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Program menu&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_navigates_to_the_program_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on Add New Program&amp#27;[0m                                                   &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_add_new_program()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter program name&amp#27;[0m                                                         &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_enter_program_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on season and checked the box&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_season_and_checked_the_box()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on sport and select from dropdown&amp#27;[0m                                    &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_sport_and_select_from_dropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on gender and select from dropdown&amp#27;[0m                                   &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_gender_and_select_from_dropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter program website&amp#27;[0m                                                      &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_enter_program_website()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on Create My  Program&amp#27;[0m                                               &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_create_my_program()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:39:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:39:43 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Add new program in program functionality #4" classname="Program Functionality;" time="19.813">
+    <system-out><![CDATA[
+Scenario: Add new program in program functionality                                    &amp#27;[90m# src/test/resources/Features/program.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Program menu&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_navigates_to_the_program_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on Add New Program&amp#27;[0m                                                   &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_add_new_program()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter program name&amp#27;[0m                                                         &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_enter_program_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on season and checked the box&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_season_and_checked_the_box()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on sport and select from dropdown&amp#27;[0m                                    &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_sport_and_select_from_dropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on gender and select from dropdown&amp#27;[0m                                   &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_gender_and_select_from_dropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter program website&amp#27;[0m                                                      &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_enter_program_website()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on Create My  Program&amp#27;[0m                                               &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_create_my_program()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:40:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:40:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Add new program in program functionality #5" classname="Program Functionality;" time="20.126">
+    <system-out><![CDATA[
+Scenario: Add new program in program functionality                                    &amp#27;[90m# src/test/resources/Features/program.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page&amp#27;[0m                                                     &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"helloteamdemo+techahead@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"H3770T34M"&amp#27;[0m &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                                 &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_clicks_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.LoginSteps.user_is_navigated_to_the_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to the Program menu&amp#27;[0m                                             &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_navigates_to_the_program_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on Add New Program&amp#27;[0m                                                   &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_add_new_program()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter program name&amp#27;[0m                                                         &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_enter_program_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on season and checked the box&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_season_and_checked_the_box()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser scrolls to Post to Team Feed button&amp#27;[0m                                        &amp#27;[90m# com.example.stepdefinitions.DashboardSteps.userScrollsToPostToTeamFeedButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on sport and select from dropdown&amp#27;[0m                                    &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_sport_and_select_from_dropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on gender and select from dropdown&amp#27;[0m                                   &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_gender_and_select_from_dropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter program website&amp#27;[0m                                                      &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_enter_program_website()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on Create My  Program&amp#27;[0m                                               &amp#27;[90m# com.example.stepdefinitions.ProgramSteps.user_click_on_create_my_program()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2026 10:40:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 23, 2026 10:40:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

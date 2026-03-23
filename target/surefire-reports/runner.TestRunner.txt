@@ -1,0 +1,126 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 646.6 s <<< FAILURE! -- in runner.TestRunner
+Athletes Functionality.Add a new Athlete -- Time elapsed: 80.03 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: (//*[name()='path'][@fill='currentColor'])[5] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54765}, goog:processID: 14932, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54765/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 922c09d500e3bed49bdea2d7ef7d759c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.athletesPage.clickCalendarAndSelectDate(athletesPage.java:106)
+	at com.example.stepdefinitions.athletesSteps.user_click_on_calendar_and_select_date(athletesSteps.java:44)
+	at ✽.user click on calendar and select date(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/athletes.feature:17)
+
+Athletes Functionality.Edit the details of new Athlete added -- Time elapsed: 46.55 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //tbody/tr[1]/td[11]/div[1]/app-table-action[2]/button[1]/span[1]/fa-icon[1]//*[name()='svg'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54796}, goog:processID: 3452, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54796/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a19b513c62947b1460ec4293d725c34
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.athletesPage.clickEditAthlete(athletesPage.java:204)
+	at com.example.stepdefinitions.athletesSteps.user_click_on_edit_button_of_athlete(athletesSteps.java:95)
+	at ✽.user click on edit button of athlete(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/athletes.feature:31)
+
+Dashboard Functionality;.When user delete a event from dashboard -- Time elapsed: 40.95 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator solid-primary mat-flat-button mat-button-base'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64281}, goog:processID: 17740, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64281/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa1cc54c3ab615e5491ccf92ee602943
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.DashboardPage.clickEditButtonOfEvent(DashboardPage.java:332)
+	at com.example.stepdefinitions.DashboardSteps.user_click_on_edit_button_of_the_event(DashboardSteps.java:201)
+	at ✽.user click on edit button of the event(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:113)
+
+Dashboard Functionality;.When user add announcement from dashboard -- Time elapsed: 40.98 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to no longer be visible: By.xpath: //div[contains(@class,'cdk-overlay')]//form | //div[contains(@class,'cdk-overlay')]//mat-dialog-container (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50871}, goog:processID: 22348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50871/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a36d4cb7e1ae6d17d4916064ef6b4e1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.DashboardPage.verifyAnnouncementCreated(DashboardPage.java:372)
+	at com.example.stepdefinitions.DashboardSteps.announcement_should_be_created_successfully(DashboardSteps.java:237)
+	at ✽.announcement should be created successfully(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:124)
+
+Dashboard Functionality;.When user delete announcement from dashboard -- Time elapsed: 40.21 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(.,'Announcement') or contains(.,'announcement')] | //button[contains(.,'Announcement')] | //*[contains(@class,'tab') and contains(.,'Announcement')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50728}, goog:processID: 17216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50728/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf9050a3d9e43bb217c0d0c14144cd90
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.DashboardPage.clickAnnouncementTab(DashboardPage.java:378)
+	at com.example.stepdefinitions.DashboardSteps.user_click_on_announcement_tab(DashboardSteps.java:244)
+	at ✽.user click on announcement tab(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:129)
+
+Dashboard Functionality;.When user delete game from calendar -- Time elapsed: 10.23 s <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at com.example.stepdefinitions.DashboardSteps.userClickOnGameTab(DashboardSteps.java:288)
+	at ✽.user click on  game tab(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:148)
+
+Dashboard Functionality;.When user export from calendar -- Time elapsed: 10.47 s <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at com.example.stepdefinitions.DashboardSteps.userClickOnPlusIconAndSelectAddClickOnExportCalendar(DashboardSteps.java:306)
+	at ✽.user click on plus icon and select Add click on Export Calendar(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/dashboard.feature:155)
+
+Media Library Functionality.Creating a new folder in media library -- Time elapsed: 25.20 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50372}, goog:processID: 15292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50372/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e4a6d1022c15325eb141f07eb4bb892
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.MediaLibraryPage.clickAddNewAndSelectNewFolder(MediaLibraryPage.java:77)
+	at com.example.stepdefinitions.MediaLibrarySteps.user_clicks_on_add_new_and_selects_new_folder(MediaLibrarySteps.java:32)
+	at ✽.user clicks on Add New and selects New Folder(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/mediaLibrary.feature:15)
+
+Media Library Functionality.Creating a new document in media library -- Time elapsed: 25.74 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49811}, goog:processID: 16804, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49811/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e089bec67a038b37058850d7200e8b81
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.MediaLibraryPage.clickAddNewAndSelectNewDocument(MediaLibraryPage.java:96)
+	at com.example.stepdefinitions.MediaLibrarySteps.userClicksOnAddNewAndSelectsNewDocument(MediaLibrarySteps.java:60)
+	at ✽.user clicks on Add New and selects New Document(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/mediaLibrary.feature:20)
+
+Media Library Functionality.Creating a new link in media library -- Time elapsed: 25.69 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='mat-focus-indicator mat-menu-trigger solid-primary custom-btn add-new-btn mat-flat-button mat-button-base ng-star-inserted'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Jaya\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56254}, goog:processID: 8172, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56254/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d4cd3e9c91ad14e7861c164f182daa0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.example.pages.MediaLibraryPage.clickAddNewAndSelectAddNewLink(MediaLibraryPage.java:124)
+	at com.example.stepdefinitions.MediaLibrarySteps.userClicksOnAddNewAndSelectsAddNewLink(MediaLibrarySteps.java:80)
+	at ✽.user clicks on Add New and selects Add New Link(file:///C:/Users/Jaya/Downloads/cucumber-Java-20251229T110220Z-3-001/cucumber-Java/src/test/resources/Features/mediaLibrary.feature:26)
+
