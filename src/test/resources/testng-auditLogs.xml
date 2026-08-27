@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Audit Logs Suite" verbose="1">
+    <test name="Audit Logs">
+        <classes>
+            <class name="runner.testng.AuditLogsTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Audit Logs Actions">
+        <classes>
+            <class name="runner.testng.AuditLogsActionsTestNGRunner"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Consent Audit Log Suite" verbose="1">
+    <test name="Consent Audit Log">
+        <classes>
+            <class name="runner.testng.ConsentAuditLogTestNGRunner"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+target/
+allure-results/
+.idea/
+*.iml
+.DS_Store
+*.png
+!src/test/resources/testdata/*.png
+cp.txt

@@ -1,0 +1,17 @@
+package runner.testng;
+
+import io.cucumber.testng.CucumberOptions;
+
+@CucumberOptions(
+        features = "src/test/resources/Features/manageEvents.feature",
+        glue = {"com.example.stepdefinitions", "com.example.hooks"},
+        tags = "not @ignore",
+        plugin = {
+                "pretty",
+                "html:target/cucumber-reports/cucumber-report.html",
+                "json:target/cucumber-reports/cucumber.json",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+        }
+)
+public class ManageEventsTestNGRunner extends TestNGCucumberBase {
+}

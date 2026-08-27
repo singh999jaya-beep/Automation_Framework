@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="VI Admin Manage Admin Users Suite" verbose="1">
+    <test name="Manage Admin Users">
+        <classes>
+            <class name="runner.testng.ManageAdminUsersTestNGRunner"/>
+        </classes>
+    </test>
+</suite>

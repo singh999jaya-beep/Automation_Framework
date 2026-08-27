@@ -1,0 +1,78 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="VI Admin CI Suite" verbose="1">
+    <test name="Login">
+        <classes>
+            <class name="runner.testng.LoginTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Password Reset">
+        <classes>
+            <class name="runner.testng.PasswordResetTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Input Categories">
+        <classes>
+            <class name="runner.testng.InputCategoriesTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Company Users">
+        <classes>
+            <class name="runner.testng.CompanyUsersTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Individual Users">
+        <classes>
+            <class name="runner.testng.IndividualUsersTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Manage Admin Users">
+        <classes>
+            <class name="runner.testng.ManageAdminUsersTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Manage Roles">
+        <classes>
+            <class name="runner.testng.ManageRolesTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Manage Events">
+        <classes>
+            <class name="runner.testng.ManageEventsTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Advertisements">
+        <classes>
+            <class name="runner.testng.AdvertisementTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Moderation Center">
+        <classes>
+            <class name="runner.testng.ModerationTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Transactions">
+        <classes>
+            <class name="runner.testng.TransactionsTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Consent Audit Log">
+        <classes>
+            <class name="runner.testng.ConsentAuditLogTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Audit Logs">
+        <classes>
+            <class name="runner.testng.AuditLogsTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Audit Logs Actions">
+        <classes>
+            <class name="runner.testng.AuditLogsActionsTestNGRunner"/>
+        </classes>
+    </test>
+    <test name="Admin Settings">
+        <classes>
+            <class name="runner.testng.AdminSettingsTestNGRunner"/>
+        </classes>
+    </test>
+</suite>
